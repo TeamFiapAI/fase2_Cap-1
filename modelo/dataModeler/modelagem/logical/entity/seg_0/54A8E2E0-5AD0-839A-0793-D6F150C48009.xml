@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54A8E2E0-5AD0-839A-0793-D6F150C48009" name="ProdutorFazenda">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:30:04 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produtor" id="F775A345-8331-B4D7-3521-A08337338E4E">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:30:34 UTC</createdTime>
+<generatorID>3DA9893E-2191-54C0-7AEA-322D11DCBAE7</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referedAttribute>B7A488B5-FF90-E3A1-6394-CCEF0B6D84FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fazenda" id="BECA3AA3-33B6-28BC-47EB-A72C811A799C">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:30:43 UTC</createdTime>
+<generatorID>B1F64502-F702-22BC-80A8-C238839228F0</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referedAttribute>72EFA511-F8BC-EE3C-F4D7-5B0D38E0AA9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="16EEC87F-3D2E-F2B2-06D4-0E13CF32C64B">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:31:28 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fim" id="A26F5B58-35BC-0BF9-265D-2BAF2D289A58">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:31:45 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0CB4E23-A605-4643-7199-508F7FF21F23" name="ProdutorFazenda PK">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:31:25 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F775A345-8331-B4D7-3521-A08337338E4E</attributeRef>
+<attributeRef>BECA3AA3-33B6-28BC-47EB-A72C811A799C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

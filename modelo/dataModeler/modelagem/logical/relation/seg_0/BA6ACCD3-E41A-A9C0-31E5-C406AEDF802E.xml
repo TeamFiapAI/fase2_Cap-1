@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usado" directorySegmentName="seg_0" id="BA6ACCD3-E41A-A9C0-31E5-C406AEDF802E">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 13:23:01 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="FADE3FC5-5D65-D4F5-4FC4-D311E7CC6C5A" value="true"/>
+</engineerTo>
+<sourcePk>8228321B-D897-03C4-9129-00A9F9F8A6BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31240126-061C-12CC-BDAE-9CB81063E8C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5472F73-EDA5-2569-FD1C-CCCAD7F23639</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

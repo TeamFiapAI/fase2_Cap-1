@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="plantada" directorySegmentName="seg_0" id="9FC1CFB8-0477-66E9-32CA-9F19E14064CE">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 13:21:51 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="FADE3FC5-5D65-D4F5-4FC4-D311E7CC6C5A" value="true"/>
+</engineerTo>
+<sourcePk>52ABFF41-DA2F-1EB7-F4E2-BA409AE77DAF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>700A2126-0DA5-5CA4-F51F-DFA87050EE78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8BD9395-2CF4-3C88-505D-A7977A7AD111</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

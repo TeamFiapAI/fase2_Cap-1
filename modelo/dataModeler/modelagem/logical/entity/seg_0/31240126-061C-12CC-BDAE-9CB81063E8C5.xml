@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31240126-061C-12CC-BDAE-9CB81063E8C5" name="TipoSensor">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:24:22 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_sensor" id="1F383431-54E9-DF46-D8A9-5E9D013A3F3A">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:24:35 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="8C0DDA29-9D6C-62E9-A9B2-981804A128CD">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:24:43 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidade" id="803B7DAC-086F-00FF-8931-CE1B93369123">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:24:54 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8228321B-D897-03C4-9129-00A9F9F8A6BE" name="TSensor PK">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:24:38 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F383431-54E9-DF46-D8A9-5E9D013A3F3A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

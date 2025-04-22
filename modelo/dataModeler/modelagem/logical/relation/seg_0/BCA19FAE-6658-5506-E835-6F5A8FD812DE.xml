@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tem" directorySegmentName="seg_0" id="BCA19FAE-6658-5506-E835-6F5A8FD812DE">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 13:28:56 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="FADE3FC5-5D65-D4F5-4FC4-D311E7CC6C5A" value="true"/>
+</engineerTo>
+<sourcePk>D1E623AA-2307-323F-0183-FE3A08093EFA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>530191CC-C72F-7C14-FAED-C626CAB787AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2081B4FC-FF73-D11C-FC54-29C236D995B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

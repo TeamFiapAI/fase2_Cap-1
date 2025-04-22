@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8BD9395-2CF4-3C88-505D-A7977A7AD111" name="Plantacao">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:10:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plantacao" id="8728F3DE-5B03-F575-1E7D-9A80D8562643">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:11:32 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor" id="1AC1002A-CE10-BD1D-0E22-C3AB58955881">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:34:59 UTC</createdTime>
+<generatorID>FD671663-2975-C186-0D28-EAF153A14FF8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referedAttribute>F775A345-8331-B4D7-3521-A08337338E4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fazenda" id="E5CD82A4-BBCE-C7D7-27AA-23011D8D0B2F">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:34:59 UTC</createdTime>
+<generatorID>FD671663-2975-C186-0D28-EAF153A14FF8</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referedAttribute>BECA3AA3-33B6-28BC-47EB-A72C811A799C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="C6DF834C-9570-640A-8F56-AE4E7E30C33B">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 13:21:51 UTC</createdTime>
+<generatorID>9FC1CFB8-0477-66E9-32CA-9F19E14064CE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referedAttribute>3BE441D9-D0C6-C578-1B76-46FBD1DDA9EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="339CF6C7-68DB-E2FA-FBBA-EA567B0D0554">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:18:57 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fim" id="60D4D7FB-D3FD-9939-6A1D-08B2C7A3C87B">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:35:57 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD87FC06-8D16-64E1-BFBB-F319BC486B9C" name="TPlantacao PK">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-11 11:11:41 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8728F3DE-5B03-F575-1E7D-9A80D8562643</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

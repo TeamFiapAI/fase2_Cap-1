@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contém" directorySegmentName="seg_0" id="FD671663-2975-C186-0D28-EAF153A14FF8">
+<createdBy>guilh</createdBy>
+<createdTime>2025-04-22 03:34:59 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<sourcePk>D0CB4E23-A605-4643-7199-508F7FF21F23</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54A8E2E0-5AD0-839A-0793-D6F150C48009</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8BD9395-2CF4-3C88-505D-A7977A7AD111</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
